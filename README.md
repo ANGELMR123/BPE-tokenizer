@@ -105,8 +105,7 @@ def train_bpe(words, vocab_size):
 
 ```
 bpe-tokenizer/
-├── tokenizer.py          # Main tokenizer implementation
-├── train_tokenizer.py    # Training script
+├── bpe_tokenizer.py          # Main tokenizer implementation
 ├── README.md            # This file
 └── data/
     ├── vocab.txt        # Trained vocabulary
@@ -152,7 +151,7 @@ Key parameters to adjust:
 
 ## 📊 Performance Notes
 
-**Training Time** (on Harry Potter dataset):
+**Training Time**:
 - 4K vocabulary: ~15 minutes
 - 10K vocabulary: ~45 minutes  
 - 30K vocabulary: ~3 hours
